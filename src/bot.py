@@ -25,8 +25,6 @@ def handle_command(command, channel, user):
     """
     response = None
 
-    print(CHANNEL_USER_HAS_GIPHY)
-
     if command.startswith("/giphy"):
         CHANNEL_USER_HAS_GIPHY[(channel, user)] = True
     elif (channel, user) in CHANNEL_USER_HAS_GIPHY and CHANNEL_USER_HAS_GIPHY[(channel, user)]:

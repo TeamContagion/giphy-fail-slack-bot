@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61c05df3-3a64-4725-aa3d-fa972af5caa3" name="cloud-at-cost" url="http://64.137.175.33">
+        <fileTransfer host="64.137.175.33" port="22" privateKey="C:\Users\greg\IdeaProjects\id_rsa" rootFolder="/home/greg/slack-bot/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
