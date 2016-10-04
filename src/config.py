@@ -33,8 +33,7 @@ SUCKS_REGEX = [
     "terrible",
     "not good",
     "dumb",
-    "useless",
-    ""
+    "useless"
 ]
 
 FAIL_REGEX = "(%s)" % ('|'.join(FAIL_REGEX))
