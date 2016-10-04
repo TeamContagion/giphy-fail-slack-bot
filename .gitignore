@@ -135,5 +135,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+.idea/deployment.xml
 .idea
 *.iml

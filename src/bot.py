@@ -7,10 +7,6 @@ from config import BOT_USER_ID, SLACK_TOKEN, FAIL_MESSAGES, FAIL_IMAGES, FAIL_RE
 import re
 
 
-# constants
-AT_BOT = "<@" + BOT_USER_ID + ">:"
-EXAMPLE_COMMAND = "do"
-
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(SLACK_TOKEN)
 
@@ -76,3 +72,4 @@ if __name__ == "__main__":
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
+        exit(1)
